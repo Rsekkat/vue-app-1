@@ -148,7 +148,7 @@
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script>
 
-    const apiKey = 'RGAPI-881436ec-9104-47c9-9a5c-3341e9561bf2';
+    const apiKey = 'RGAPI-d4ff1573-42e9-488c-b1b0-49d71bc6f90a';
     const apiURL = 'https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/';
     const apiTotalMpURL = 'https://euw1.api.riotgames.com/lol/champion-mastery/v4/scores/by-summoner/';
     const profilePictureApiURL = 'http://ddragon.leagueoflegends.com/cdn/11.1.1/img/profileicon/';
@@ -195,6 +195,8 @@
       computed: {
 
       },
+
+      headers: {"Access-Control-Allow-Origin": "*"},
 
       // Functions we will be using.
       methods: {
