@@ -147,7 +147,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.5/vue.min.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script>
-
     const apiKey = 'RGAPI-d4ff1573-42e9-488c-b1b0-49d71bc6f90a';
     const apiURL = 'https://euw1.api.riotgames.com/lol/summoner/v4/summoners/by-name/';
     const apiTotalMpURL = 'https://euw1.api.riotgames.com/lol/champion-mastery/v4/scores/by-summoner/';
@@ -155,6 +154,7 @@
     const championsApiURL = 'http://ddragon.leagueoflegends.com/cdn/11.1.1/data/fr_FR/champion.json';
     const championsMpApiURL = 'https://euw1.api.riotgames.com/lol/champion-mastery/v4/champion-masteries/by-summoner/';
     const championImgURL = 'http://ddragon.leagueoflegends.com/cdn/5.9.1/img/champion/';
+
 
     var demo = new Vue({
 
@@ -195,8 +195,6 @@
       computed: {
 
       },
-
-      headers: {"Access-Control-Allow-Origin": "*"},
 
       // Functions we will be using.
       methods: {
